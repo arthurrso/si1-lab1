@@ -1,0 +1,64 @@
+body {
+    background-color: #F0F0F0;
+}
+#area
+{
+    position:relative;
+    left:37%;
+    top:10%;
+    width:450px;
+    height:120px;
+}
+#area #formulario
+{
+    position:absolute;
+    display:block;  
+}
+fieldset
+{
+    width:350px;
+    height:200px;
+}
+legend
+{
+    font-style:bold;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+
+#formulario label
+{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+ 
+ 
+#formulario input.campo_nome
+{
+    position:absolute;
+    left:135px;
+    top:42px;
+    width:225px;
+}
+#formulario input.campo_email
+{
+    position:absolute;
+    left:135px;
+    margin-top:5px;
+    width:225px;
+}
+#formulario input.campo_matricula
+{
+    position:absolute;
+    left:135px;
+    margin-top:-2px;
+    width:225px;
+}
+
+#formulario input.botao_cadastre-se
+{
+    position:absolute;
+    left:135px;
+    margin-top:12px;
+    width:225px;
+}
